@@ -1,0 +1,47 @@
+---
+title: PSDM
+description: Human Resource Development
+icon: Users
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { UserCheck, UserMinus, Monitor, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <UserCheck className="h-5 w-5 text-fd-primary" />
+          <span>Teacher Attendance</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./teacher-attendance"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <UserMinus className="h-5 w-5 text-fd-primary" />
+          <span>Absent Teachers</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./absent-teachers"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Monitor className="h-5 w-5 text-fd-primary" />
+          <span>Teacher Monitoring</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./teacher-monitoring"
+  />
+</Cards>

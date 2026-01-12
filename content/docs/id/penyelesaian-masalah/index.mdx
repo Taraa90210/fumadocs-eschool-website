@@ -1,0 +1,35 @@
+---
+title: Penyelesaian Masalah
+description: Solusi untuk kendala yang mungkin Anda hadapi
+icon: HelpCircle
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { AlertCircle, Key, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <AlertCircle className="h-5 w-5 text-fd-primary" />
+          <span>Masalah Login</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./masalah-login"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Key className="h-5 w-5 text-fd-primary" />
+          <span>Lupa Password</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./lupa-password"
+  />
+</Cards>

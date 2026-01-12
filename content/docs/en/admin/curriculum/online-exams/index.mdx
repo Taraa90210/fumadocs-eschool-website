@@ -1,0 +1,47 @@
+---
+title: Online Exams
+description: Centralized management and coordination of digital and computer-based academic examinations.
+icon: Globe
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { LayoutDashboard, CheckSquare, Library, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <LayoutDashboard className="h-5 w-5 text-fd-primary" />
+          <span>Online Exam Dashboard</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./dashboard"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <CheckSquare className="h-5 w-5 text-fd-primary" />
+          <span>Exams Management</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./exams"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Library className="h-5 w-5 text-fd-primary" />
+          <span>Question Bank</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./question-bank"
+  />
+</Cards>

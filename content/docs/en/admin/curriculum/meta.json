@@ -1,0 +1,22 @@
+{
+    "title": "Curriculum",
+    "pages": [
+        "dashboard",
+        "instructional-language",
+        "study-groups",
+        "majors",
+        "classes",
+        "subjects",
+        "subjects-per-class",
+        "class-teachers",
+        "transfer-class-x",
+        "sequence-number",
+        "semesters",
+        "shifts",
+        "class-schedule",
+        "student-assignments",
+        "offline-exams",
+        "online-exams",
+        "teachers"
+    ]
+}

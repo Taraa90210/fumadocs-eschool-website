@@ -1,0 +1,8 @@
+{
+    "title": "Student Affairs",
+    "pages": [
+        "dashboard",
+        "student",
+        "attendance"
+    ]
+}

@@ -1,0 +1,130 @@
+---
+title: Attendance
+description: Student attendance management
+icon: CheckSquare
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { 
+  LayoutDashboard, 
+  CalendarDays, 
+  FileEdit, 
+  BarChart2, 
+  ClipboardList, 
+  FileText, 
+  PieChart, 
+  History, 
+  Settings, 
+  ChevronRight 
+} from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <LayoutDashboard className="h-5 w-5 text-fd-primary" />
+          <span>Attendance Dashboard</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./attendance-dashboard"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <CalendarDays className="h-5 w-5 text-fd-primary" />
+          <span>Special Activity Attendance</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./special-activity-attendance"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FileEdit className="h-5 w-5 text-fd-primary" />
+          <span>Student Leave Permits</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./student-leave-permits"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <BarChart2 className="h-5 w-5 text-fd-primary" />
+          <span>Alpha Point Rankings</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./alpha-point-rankings"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ClipboardList className="h-5 w-5 text-fd-primary" />
+          <span>Special Activity Attendance Report</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./special-activity-attendance-report"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FileText className="h-5 w-5 text-fd-primary" />
+          <span>Attendance Report</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./attendance-report"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <PieChart className="h-5 w-5 text-fd-primary" />
+          <span>Semester SIA Report</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./semester-sia-report"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <History className="h-5 w-5 text-fd-primary" />
+          <span>Attendance Point Report</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./attendance-point-report"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Settings className="h-5 w-5 text-fd-primary" />
+          <span>Attendance Settings</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./attendance-settings"
+  />
+</Cards>

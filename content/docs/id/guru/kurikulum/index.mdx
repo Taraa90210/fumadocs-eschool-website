@@ -1,0 +1,72 @@
+---
+title: Kurikulum
+description: Manajemen Kurikulum untuk Guru
+icon: BookOpen
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { Calendar, ClipboardList, Monitor, MonitorOff, Database, ChevronRight } from 'lucide-react';
+
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Calendar className="h-5 w-5 text-fd-primary" />
+          <span>Jadwal Pelajaran</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./jadwal-pelajaran"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ClipboardList className="h-5 w-5 text-fd-primary" />
+          <span>Tugas Siswa</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./tugas-siswa"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <MonitorOff className="h-5 w-5 text-fd-primary" />
+          <span>Ujian Offline</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./ujian-offline"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Monitor className="h-5 w-5 text-fd-primary" />
+          <span>Ujian Online</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./ujian-online"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Database className="h-5 w-5 text-fd-primary" />
+          <span>Bank Soal</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./bank-soal"
+  />
+</Cards>

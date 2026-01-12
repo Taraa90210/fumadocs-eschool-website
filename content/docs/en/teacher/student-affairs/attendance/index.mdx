@@ -1,0 +1,83 @@
+---
+title: Attendance
+description: Student Attendance Management for Teachers
+icon: CheckSquare
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { LayoutDashboard, CalendarCheck, ClipboardCheck, FileCheck, BarChart3, FilePieChart, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <LayoutDashboard className="h-5 w-5 text-fd-primary" />
+          <span>Attendance Dashboard</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./dashboard"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <CalendarCheck className="h-5 w-5 text-fd-primary" />
+          <span>Special Activity Attendance</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./special-activity"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ClipboardCheck className="h-5 w-5 text-fd-primary" />
+          <span>Per-Subject Attendance</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./per-subject-attendance"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FileCheck className="h-5 w-5 text-fd-primary" />
+          <span>Student Leave Permits</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./leave-permits"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <BarChart3 className="h-5 w-5 text-fd-primary" />
+          <span>Alpha Point Rankings</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./absence-rankings"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FilePieChart className="h-5 w-5 text-fd-primary" />
+          <span>Activity Attendance Report</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./activity-reports"
+  />
+</Cards>

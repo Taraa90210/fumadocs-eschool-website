@@ -1,0 +1,13 @@
+{
+    "title": "Student",
+    "pages": [
+        "student-dashboard",
+        "manage-student",
+        "student-list",
+        "reset-password",
+        "upload-profile-photo",
+        "registration-form",
+        "import-data",
+        "guardians"
+    ]
+}

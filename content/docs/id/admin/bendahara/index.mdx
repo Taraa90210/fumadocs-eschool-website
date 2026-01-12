@@ -1,0 +1,59 @@
+---
+title: Bendahara
+description: Manajemen Keuangan Sekolah
+icon: Landmark
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { LayoutDashboard, Wallet, MinusCircle, Banknote, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <LayoutDashboard className="h-5 w-5 text-fd-primary" />
+          <span>Dashboard Keuangan</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./dashboard-keuangan"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Wallet className="h-5 w-5 text-fd-primary" />
+          <span>Biaya</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./biaya"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <MinusCircle className="h-5 w-5 text-fd-primary" />
+          <span>Pengeluaran</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./pengeluaran"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Banknote className="h-5 w-5 text-fd-primary" />
+          <span>Gaji</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./gaji"
+  />
+</Cards>

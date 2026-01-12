@@ -1,0 +1,86 @@
+---
+title: Laporan Absensi
+description: Rekap kehadiran siswa berdasarkan bulan dan tahun ajaran
+icon: FileText
+---
+
+<img src="/images/laporan-absensi.png" alt="Description image"/>
+
+Rekap Kehadiran Siswa Berdasarkan Bulan dan Tahun Ajaran
+
+Halaman Laporan Absensi menyediakan ringkasan data ketidakhadiran siswa. Anda dapat memfilter, membuat, dan mengelola laporan absensi untuk setiap kelas pada periode waktu tertentu.
+
+---
+
+### Filter Laporan Absensi
+
+Anda dapat menentukan laporan yang ingin ditampilkan menggunakan filter berikut:
+- **Tingkatan**: Pilih tingkatan kelas (misalnya, X, XI, XII).
+- **Kelas**: Pilih kelas spesifik.
+- **Bulan**: Pilih bulan laporan absensi.
+- **Tahun Ajaran**: Pilih tahun ajaran laporan.
+
+Setelah memilih semua kriteria, klik tombol **Generate** berwarna merah untuk menampilkan laporan absensi sesuai filter.
+
+---
+
+### Tabel Data Ketidakhadiran Siswa
+
+Tabel utama menampilkan rincian data absensi siswa pada bulan dan kelas yang dipilih.
+
+| Kolom | Deskripsi |
+|-------|-----------|
+| **No** | Nomor urut siswa. |
+| **NIS / NISN** | Nomor Induk Siswa atau Nomor Induk Siswa Nasional. |
+| **Nama** | Nama lengkap siswa. |
+| **L/P** | Jenis Kelamin (Laki-laki/Perempuan). |
+| **Tanggal (01 - 30/31)** | Kolom untuk setiap tanggal dalam bulan tersebut. |
+| **JML TIDAK HADIR** | Jumlah total ketidakhadiran siswa yang telah dikonversi (dalam satuan hari atau jam). |
+| **POIN KETERANGAN** | Jumlah poin sanksi yang dikenakan atas ketidakhadiran. |
+| **KETERANGAN** | Catatan atau ringkasan terkait absensi siswa. |
+
+---
+
+### Edit Data Absensi Real-Time
+
+Anda dapat mengedit data absensi siswa secara langsung dan real-time dari tabel:
+
+- **Cara Mengedit**: Klik pada sel absensi di bawah kolom Tanggal (misalnya, di bawah tanggal 05, 10, dll.) untuk siswa yang bersangkutan.
+- **Format Penulisan Absensi**: Masukkan data ketidakhadiran dengan format kode yang spesifik:
+
+| Keterangan | Kode Hari (1 Hari = 10 Jam) | Kode Jam (Kurang dari 10 Jam) |
+|------------|------------------------------|--------------------------------|
+| **Sakit** | `S` diikuti jumlah jam (misalnya, `S10`) | `S` diikuti jumlah jam (misalnya, `S2`) |
+| **Izin** | `I` diikuti jumlah jam (misalnya, `I10`) | `I` diikuti jumlah jam (misalnya, `I3`) |
+| **Alpha (Tanpa Keterangan)** | `A` diikuti jumlah jam (misalnya, `A10`) | `A` diikuti jumlah jam (misalnya, `A4`) |
+
+**Contoh Penulisan:**
+- Sakit 1 hari: `S10`
+- Izin 1 hari: `I10`
+- Alpha 1 hari: `A10`
+- Sakit 2 jam: `S2`
+- Izin 3 jam: `I3`
+- Alpha 4 jam: `A4`
+
+---
+
+### Perhitungan Jumlah Ketidakhadiran
+
+Jumlah jam ketidakhadiran akan dikonversi ke dalam satuan desimal pada kolom **JML TIDAK HADIR** dengan konversi sebagai berikut (Diasumsikan 1 hari sekolah = 10 jam pelajaran):
+- 1 jam = 0.1
+- 2 jam = 0.2
+- ...
+- 10 jam (1 hari) = 1
+
+---
+
+### Tombol Aksi
+
+Di atas tabel, terdapat beberapa tombol aksi untuk mengelola laporan:
+- **Hitung Ulang**: Klik tombol **Hitung Ulang** berwarna merah untuk memproses ulang data absensi dan memperbarui nilai pada kolom JML TIDAK HADIR dan POIN KETERANGAN setelah Anda melakukan perubahan data absensi di tabel.
+- **Ekspor Data**: Terdapat tombol untuk mengunduh laporan ke dalam file (biasanya PDF atau Excel).
+
+---
+
+### **Butuh Bantuan Lebih Lanjut?**
+Jika Anda membutuhkan bantuan lebih lanjut, hubungi kami melalui [halaman Bantuan eSchool](https://www.eschool.ac.id/#contact-us).

@@ -1,0 +1,47 @@
+---
+title: Staff
+description: School staff data management
+icon: Users
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { Contact, ShieldCheck, Upload, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Contact className="h-5 w-5 text-fd-primary" />
+          <span>Staff</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./staff-management"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ShieldCheck className="h-5 w-5 text-fd-primary" />
+          <span>Access Rights</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./access-rights"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Upload className="h-5 w-5 text-fd-primary" />
+          <span>Import Data</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./import-data"
+  />
+</Cards>

@@ -1,0 +1,81 @@
+---
+title: Manage Payment
+description: Page for managing and processing student payments.
+icon: CreditCard
+---
+
+The Payment History page displays all records of payment transactions made by students. You can view, manage, and process payment data from this page.
+
+***
+
+#### Filters and Search
+
+You can filter payment history data based on specific criteria:
+
+* Level: Select class level (e.g., All, X, XI, XII).
+* Class: Select specific class (e.g., All, TKJ A, TKJ B).
+* Month: Select transaction month.
+* Payment Status: Select transaction status (e.g., All, Approved, Rejected, Deleted).
+* Search: Use the search column to find data based on name, number, or other information.
+
+You also have the All button (to display all data) and Deleted button (to view history that has been deleted).
+
+***
+
+#### Payment History Table
+
+This table displays details of each payment transaction with the following columns:
+
+| **Column**             | **Description**                                                              |
+| ---------------------- | ---------------------------------------------------------------------------- |
+| No                     | Transaction sequence number.                                                 |
+| Name                   | Name of the student who made the payment.                                    |
+| Class                  | Student's class.                                                             |
+| Fee Name               | Type of fee paid (e.g., Social Fund, End of School Savings).                 |
+| Paid / Total Amount (Rp)| Amount paid / Total bill (in Rupiah).                                        |
+| Method                 | Payment method used (e.g., Cash, Gopay, Mandiri).                            |
+| Transaction Date       | Date and time transaction was recorded.                                      |
+| Process Date           | Date and time transaction status was processed.                              |
+| Status                 | Transaction status (Approved, Rejected, or empty if not yet processed).      |
+| Action                 | Buttons to process and manage transactions.                                  |
+
+***
+
+#### Transaction Status Management (Action Column)
+
+In the Action column, you can process transaction status:
+
+* Approve Transaction:
+  * Click the green check button to change transaction status to Approved.
+* Reject Transaction:
+  * Click the red cross button to change transaction status to Rejected.
+* Temporary Deletion (Soft Delete):
+  * Click the pink trash can button to delete data temporarily (soft delete). Data will move to the Deleted Payment History section.
+
+***
+
+#### Deleted Payment History
+
+To view data that has been temporarily deleted (soft delete), click the Deleted button above the table.
+
+In the Deleted Payment History table, you will find new options in the Action column:
+
+* Restore: Click this button to return the transaction data to the active Payment History list.
+* Permanent Delete: Click this button to permanently delete the transaction data from the system.
+
+***
+
+#### Viewing Payment History Detail
+
+To view full details of a transaction, click one of the data rows in the table. A Payment History Detail *modal* (pop-up window) will appear, displaying information such as:
+
+* Transaction status.
+* Transaction Date and Process Date.
+* Summary of Name, Class, Payment Method, and paid by whom (Admin).
+* Billing & Total (Fee name, Paid amount, Total, and Remaining).
+* Settlement Status / Total Amount.
+* Options to Print Receipt and Reject transaction (if not yet processed).
+
+***
+
+If you require further assistance, contact us through the [eSchool Help page](https://www.eschool.ac.id/#contact-us).

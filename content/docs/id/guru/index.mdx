@@ -1,0 +1,60 @@
+---
+title: Guru
+description: Panduan Modul Guru
+icon: UserCheck
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { Layers, Building2, Megaphone, Folder, ChevronRight } from 'lucide-react';
+
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Layers className="h-5 w-5 text-fd-primary" />
+          <span>Kurikulum</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./kurikulum"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Building2 className="h-5 w-5 text-fd-primary" />
+          <span>Kesiswaan</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./kesiswaan"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Megaphone className="h-5 w-5 text-fd-primary" />
+          <span>Humas</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./humas"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Folder className="h-5 w-5 text-fd-primary" />
+          <span>TU</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./tata-usaha"
+  />
+</Cards>

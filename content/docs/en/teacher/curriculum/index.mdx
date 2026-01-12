@@ -1,0 +1,71 @@
+---
+title: Curriculum
+description: Academic and curriculum management for teachers.
+icon: Layers
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { Calendar, ClipboardList, Monitor, MonitorOff, Database, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Calendar className="h-5 w-5 text-fd-primary" />
+          <span>Class Schedule</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./class-schedule"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ClipboardList className="h-5 w-5 text-fd-primary" />
+          <span>Student Assignments</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./student-assignments"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <MonitorOff className="h-5 w-5 text-fd-primary" />
+          <span>Offline Exams</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./offline-exams"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Monitor className="h-5 w-5 text-fd-primary" />
+          <span>Online Exams</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./online-exams"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Database className="h-5 w-5 text-fd-primary" />
+          <span>Question Bank</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./question-bank"
+  />
+</Cards>

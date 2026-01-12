@@ -1,0 +1,47 @@
+---
+title: Student Affairs
+description: Admin Student Affairs Module Guide
+icon: Building2
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { LayoutDashboard, UserCircle, CheckSquare, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <LayoutDashboard className="h-5 w-5 text-fd-primary" />
+          <span>Student Affairs Dashboard</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./dashboard-kesiswaan"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <UserCircle className="h-5 w-5 text-fd-primary" />
+          <span>Student</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./siswa"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <CheckSquare className="h-5 w-5 text-fd-primary" />
+          <span>Attendance</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./absensi"
+  />
+</Cards>

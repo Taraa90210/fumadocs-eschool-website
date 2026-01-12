@@ -1,0 +1,13 @@
+{
+    "title": "Siswa",
+    "pages": [
+        "dashboard-siswa",
+        "kelola-siswa",
+        "daftar-siswa",
+        "reset-password",
+        "upload-foto-profil",
+        "formulir-pendaftaran",
+        "impor-data",
+        "wali-murid"
+    ]
+}

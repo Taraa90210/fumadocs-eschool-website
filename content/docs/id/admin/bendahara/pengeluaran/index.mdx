@@ -1,0 +1,35 @@
+---
+title: Pengeluaran
+description: Manajemen pengeluaran sekolah
+icon: Wallet
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { MinusCircle, Tags, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <MinusCircle className="h-5 w-5 text-fd-primary" />
+          <span>Pengeluaran</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./pengeluaran"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Tags className="h-5 w-5 text-fd-primary" />
+          <span>Kategori</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./kategori"
+  />
+</Cards>

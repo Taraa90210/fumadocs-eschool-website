@@ -1,0 +1,78 @@
+---
+title: Biaya
+description: Manajemen biaya pendidikan
+icon: Banknote
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { 
+  CreditCard, 
+  Star, 
+  Users, 
+  Wrench, 
+  Upload, 
+  ChevronRight 
+} from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <CreditCard className="h-5 w-5 text-fd-primary" />
+          <span>Jenis Biaya</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./jenis-biaya"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Star className="h-5 w-5 text-fd-primary" />
+          <span>Biaya Khusus</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./biaya-khusus"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Users className="h-5 w-5 text-fd-primary" />
+          <span>Tagihan Siswa</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./tagihan-siswa"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Wrench className="h-5 w-5 text-fd-primary" />
+          <span>Kelola Pembayaran</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./kelola-pembayaran"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Upload className="h-5 w-5 text-fd-primary" />
+          <span>Impor Biaya</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./impor-biaya"
+  />
+</Cards>

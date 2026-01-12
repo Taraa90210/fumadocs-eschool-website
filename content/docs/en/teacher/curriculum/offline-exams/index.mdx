@@ -1,0 +1,47 @@
+---
+title: Offline Exams
+description: Offline Exam Management for Teachers
+icon: MonitorOff
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { Calendar, Upload, FileText, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Calendar className="h-5 w-5 text-fd-primary" />
+          <span>Exam Schedule</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./schedule"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Upload className="h-5 w-5 text-fd-primary" />
+          <span>Upload Exam Results</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./upload-results"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FileText className="h-5 w-5 text-fd-primary" />
+          <span>Exam Results</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./exam-results"
+  />
+</Cards>

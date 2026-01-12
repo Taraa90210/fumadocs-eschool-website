@@ -1,0 +1,12 @@
+{
+    "title": "Admin",
+    "pages": [
+        "kurikulum",
+        "kesiswaan",
+        "humas",
+        "psdm",
+        "bendahara",
+        "tata-usaha",
+        "pengaturan"
+    ]
+}

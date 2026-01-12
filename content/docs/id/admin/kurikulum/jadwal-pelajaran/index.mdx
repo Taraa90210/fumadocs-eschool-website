@@ -1,0 +1,35 @@
+---
+title: Jadwal Pelajaran
+description: Manajemen jadwal pelajaran sekolah
+icon: Calendar
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { PlusSquare, User, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <PlusSquare className="h-5 w-5 text-fd-primary" />
+          <span>Buat Jadwal</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./buat-jadwal"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <User className="h-5 w-5 text-fd-primary" />
+          <span>Jadwal Guru</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./jadwal-guru"
+  />
+</Cards>

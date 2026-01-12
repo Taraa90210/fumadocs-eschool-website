@@ -1,0 +1,35 @@
+---
+title: Information & Content
+description: Management of Announcements and Holidays
+icon: LayoutDashboard
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { FileText, Bell, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FileText className="h-5 w-5 text-fd-primary" />
+          <span>Announcements</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./announcements"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Bell className="h-5 w-5 text-fd-primary" />
+          <span>Holidays</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./holidays"
+  />
+</Cards>

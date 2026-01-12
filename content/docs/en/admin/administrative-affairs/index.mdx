@@ -1,0 +1,35 @@
+---
+title: Administrative Affairs
+description: School Administration Management
+icon: Folder
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { Plane, Users, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Plane className="h-5 w-5 text-fd-primary" />
+          <span>Leave</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./leave"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Users className="h-5 w-5 text-fd-primary" />
+          <span>Staff</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./staff"
+  />
+</Cards>

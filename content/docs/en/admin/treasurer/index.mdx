@@ -1,0 +1,59 @@
+---
+title: Treasurer
+description: School Finance Management
+icon: Landmark
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { LayoutDashboard, Wallet, MinusCircle, Banknote, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <LayoutDashboard className="h-5 w-5 text-fd-primary" />
+          <span>Finance Dashboard</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./finance-dashboard"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Wallet className="h-5 w-5 text-fd-primary" />
+          <span>Fees</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./fees"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <MinusCircle className="h-5 w-5 text-fd-primary" />
+          <span>Expenditures</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./expenditures"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Banknote className="h-5 w-5 text-fd-primary" />
+          <span>Salary</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./salary"
+  />
+</Cards>

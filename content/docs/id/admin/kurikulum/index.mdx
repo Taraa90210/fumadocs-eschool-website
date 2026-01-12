@@ -1,0 +1,232 @@
+---
+title: Kurikulum
+description: Panduan Modul Kurikulum untuk Admin
+icon: Layers
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { 
+  LayoutDashboard, 
+  Languages, 
+  Users, 
+  GraduationCap, 
+  School, 
+  BookOpen, 
+  Library, 
+  UserCheck, 
+  MoveRight, 
+  ListOrdered, 
+  CalendarDays, 
+  Timer,
+  Calendar,
+  ClipboardList,
+  Globe,
+  ChevronRight 
+} from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <LayoutDashboard className="h-5 w-5 text-fd-primary" />
+          <span>Dashboard Kurikulum</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./dashboard-kurikulum"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Languages className="h-5 w-5 text-fd-primary" />
+          <span>Bahasa Pengantar</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./bahasa-pengantar"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Users className="h-5 w-5 text-fd-primary" />
+          <span>Kelompok Belajar</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./kelompok-belajar"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <GraduationCap className="h-5 w-5 text-fd-primary" />
+          <span>Jurusan</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./jurusan"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <School className="h-5 w-5 text-fd-primary" />
+          <span>Kelas</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./kelas"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <BookOpen className="h-5 w-5 text-fd-primary" />
+          <span>Mata Pelajaran</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./mata-pelajaran"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Library className="h-5 w-5 text-fd-primary" />
+          <span>Mata Pelajaran Per Kelas</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./mata-pelajaran-per-kelas"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <UserCheck className="h-5 w-5 text-fd-primary" />
+          <span>Guru Kelas</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./guru-kelas"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <MoveRight className="h-5 w-5 text-fd-primary" />
+          <span>Pindah Kelas X</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./pindah-kelas-x"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ListOrdered className="h-5 w-5 text-fd-primary" />
+          <span>Nomor Urut</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./nomor-urut"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <CalendarDays className="h-5 w-5 text-fd-primary" />
+          <span>Semester</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./semester"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Timer className="h-5 w-5 text-fd-primary" />
+          <span>Shift</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./shift"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Calendar className="h-5 w-5 text-fd-primary" />
+          <span>Jadwal Pelajaran</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./jadwal-pelajaran"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ClipboardList className="h-5 w-5 text-fd-primary" />
+          <span>Tugas Siswa</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./tugas-siswa"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <GraduationCap className="h-5 w-5 text-fd-primary" />
+          <span>Ujian Offline</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./ujian-offline"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Globe className="h-5 w-5 text-fd-primary" />
+          <span>Ujian Online</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./ujian-online"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <UserCheck className="h-5 w-5 text-fd-primary" />
+          <span>Guru</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./guru"
+  />
+</Cards>

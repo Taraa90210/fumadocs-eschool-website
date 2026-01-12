@@ -1,0 +1,35 @@
+---
+title: Student Assignments
+description: Student Assignment Management for Teachers
+icon: ClipboardList
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { PlusCircle, FolderInput, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <PlusCircle className="h-5 w-5 text-fd-primary" />
+          <span>Create Assignment</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./create-assignment"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FolderInput className="h-5 w-5 text-fd-primary" />
+          <span>Submissions</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./submissions"
+  />
+</Cards>

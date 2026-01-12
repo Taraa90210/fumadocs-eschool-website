@@ -1,0 +1,59 @@
+---
+title: Kebijakan & Keamanan
+description: Kebijakan, Syarat & Ketentuan, serta Keamanan eSchool
+icon: ShieldCheck
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { ShieldAlert, FileText, Lock, Mail, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ShieldAlert className="h-5 w-5 text-fd-primary" />
+          <span>Keamanan</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./keamanan"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FileText className="h-5 w-5 text-fd-primary" />
+          <span>Syarat & Ketentuan</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./syarat-ketentuan"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Lock className="h-5 w-5 text-fd-primary" />
+          <span>Privasi</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./privasi"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Mail className="h-5 w-5 text-fd-primary" />
+          <span>Hubungi Kami</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./hubungi-kami"
+  />
+</Cards>

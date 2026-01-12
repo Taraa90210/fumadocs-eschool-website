@@ -1,0 +1,47 @@
+---
+title: Ujian Offline
+description: Manajemen Ujian Offline untuk Guru
+icon: MonitorOff
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { Calendar, Upload, FileText, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Calendar className="h-5 w-5 text-fd-primary" />
+          <span>Jadwal</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./jadwal"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Upload className="h-5 w-5 text-fd-primary" />
+          <span>Unggah Hasil Ujian</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./unggah-hasil-ujian"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FileText className="h-5 w-5 text-fd-primary" />
+          <span>Hasil Ujian</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./hasil-ujian"
+  />
+</Cards>

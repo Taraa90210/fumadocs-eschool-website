@@ -1,0 +1,9 @@
+{
+    "title": "Teacher List",
+    "pages": [
+        "edit",
+        "view-schedule",
+        "salary-info",
+        "import-data"
+    ]
+}

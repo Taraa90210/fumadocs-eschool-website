@@ -1,0 +1,81 @@
+---
+title: Kelola Pembayaran
+description: Halaman untuk mengelola dan memproses pembayaran dari siswa.
+icon: CreditCard
+---
+
+Halaman Riwayat Pembayaran menampilkan seluruh catatan transaksi pembayaran yang telah dilakukan oleh siswa. Anda dapat melihat, mengelola, dan memproses data pembayaran dari halaman ini.
+
+***
+
+#### Filter dan Pencarian
+
+Anda dapat menyaring data riwayat pembayaran berdasarkan kriteria tertentu:
+
+* Tingkatan: Pilih tingkatan kelas (misalnya, Semua, X, XI, XII).
+* Kelas: Pilih kelas spesifik (misalnya, Semua, TKJ A, TKJ B).
+* Bulan: Pilih bulan transaksi.
+* Status Pembayaran: Pilih status transaksi (misalnya, Semua, Disetujui, Ditolak, Dihapus).
+* Pencarian: Gunakan kolom pencarian untuk menemukan data berdasarkan nama, nomor, atau informasi lainnya.
+
+Anda juga memiliki tombol Semua (untuk menampilkan semua data) dan Dihapus (untuk melihat riwayat yang telah dihapus).
+
+***
+
+#### Tabel Riwayat Pembayaran
+
+Tabel ini menampilkan detail setiap transaksi pembayaran dengan kolom-kolom sebagai berikut:
+
+| **Kolom**              | **Deskripsi**                                                                |
+| ---------------------- | ---------------------------------------------------------------------------- |
+| No                     | Nomor urut transaksi.                                                        |
+| Nama                   | Nama siswa yang melakukan pembayaran.                                        |
+| Kelas                  | Kelas siswa.                                                                 |
+| Nama biaya             | Jenis biaya yang dibayarkan (misalnya, Dana Sosial, Tabungan Akhir Sekolah). |
+| Lunas / Jml Total (Rp) | Jumlah yang dibayarkan / Total tagihan (dalam Rupiah).                       |
+| Metode                 | Metode pembayaran yang digunakan (misalnya, Tunai, Gopay, Mandiri).          |
+| Tanggal Transaksi      | Tanggal dan waktu transaksi dicatat.                                         |
+| Tanggal Proses         | Tanggal dan waktu status transaksi diproses.                                 |
+| Status                 | Status transaksi (Disetujui, Ditolak, atau kosong jika belum diproses).      |
+| Aksi                   | Tombol untuk memproses dan mengelola transaksi.                              |
+
+***
+
+#### Pengelolaan Status Transaksi (Kolom Aksi)
+
+Pada kolom Aksi, Anda dapat memproses status transaksi:
+
+* Menyetujui Transaksi:
+  * Klik tombol centang berwarna hijau untuk mengubah status transaksi menjadi Disetujui.
+* Menolak Transaksi:
+  * Klik tombol silang berwarna merah untuk mengubah status transaksi menjadi Ditolak.
+* Menghapus Sementara (Soft Delete):
+  * Klik tombol gambar tempat sampah berwarna merah muda untuk menghapus data secara sementara (soft delete). Data akan berpindah ke bagian Riwayat Pembayaran yang Dihapus.
+
+***
+
+#### Riwayat Pembayaran yang Dihapus
+
+Untuk melihat data yang telah dihapus sementara (soft delete), klik tombol Dihapus di atas tabel.
+
+Pada tabel Riwayat Pembayaran yang Dihapus, Anda akan menemukan opsi baru di kolom Aksi:
+
+* Pulihkan: Klik tombol ini untuk mengembalikan data transaksi ke daftar Riwayat Pembayaran aktif.
+* Hapus Permanen: Klik tombol ini untuk menghapus data transaksi secara permanen dari sistem.
+
+***
+
+#### Melihat Detail Riwayat Pembayaran
+
+Untuk melihat detail lengkap dari suatu transaksi, klik salah satu baris data yang ada di tabel. Sebuah *modal* (jendela pop-up) Detail Riwayat Pembayaran akan muncul, yang menampilkan informasi seperti:
+
+* Status transaksi.
+* Tanggal Transaksi dan Tanggal Proses.
+* Ringkasan Nama, Kelas, Metode Pembayaran, dan dibayar oleh siapa (Admin).
+* Tagihan & Total (Nama biaya, jumlah Dibayar, Total, dan Sisa).
+* Status Lunas / Jumlah Total.
+* Opsi untuk Cetak Struk dan Tolak transaksi (jika belum diproses).
+
+***
+
+Jika Anda membutuhkan bantuan lebih lanjut, hubungi kami melalui [halaman Bantuan eSchool](https://www.eschool.ac.id/#contact-us).

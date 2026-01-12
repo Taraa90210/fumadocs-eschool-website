@@ -1,0 +1,59 @@
+---
+title: Policy & Security
+description: Learn about eSchool platform policies and security measures.
+icon: ShieldCheck
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { Shield, FileText, Lock, Mail, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Lock className="h-5 w-5 text-fd-primary" />
+          <span>Security</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./security"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FileText className="h-5 w-5 text-fd-primary" />
+          <span>Terms and Conditions</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./terms-conditions"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Shield className="h-5 w-5 text-fd-primary" />
+          <span>Privacy Policy</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./privacy"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Mail className="h-5 w-5 text-fd-primary" />
+          <span>Contact Us</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./contact-us"
+  />
+</Cards>

@@ -1,0 +1,47 @@
+---
+title: Staf
+description: Manajemen data staf sekolah
+icon: Users
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { Contact, ShieldCheck, Upload, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Contact className="h-5 w-5 text-fd-primary" />
+          <span>Staf</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./staf"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ShieldCheck className="h-5 w-5 text-fd-primary" />
+          <span>Hak Akses</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./hak-akses"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Upload className="h-5 w-5 text-fd-primary" />
+          <span>Impor Data</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./impor-data"
+  />
+</Cards>

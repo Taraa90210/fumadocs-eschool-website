@@ -1,0 +1,11 @@
+{
+    "title": "Attendance",
+    "pages": [
+        "dashboard",
+        "special-activity",
+        "per-subject-attendance",
+        "leave-permits",
+        "absence-rankings",
+        "activity-reports"
+    ]
+}

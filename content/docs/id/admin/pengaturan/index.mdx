@@ -1,0 +1,132 @@
+---
+title: Pengaturan
+description: Pengaturan Sistem eSchool
+icon: Settings
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { School, Undo2, Settings2, CalendarCog, Calendar, Mail, FileCheck, FileText, ShieldCheck, HelpCircle, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <School className="h-5 w-5 text-fd-primary" />
+          <span>Profil Sekolah</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./profil-sekolah"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Undo2 className="h-5 w-5 text-fd-primary" />
+          <span>Pengembalian Dana</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./pengembalian-dana"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Settings2 className="h-5 w-5 text-fd-primary" />
+          <span>Pengaturan Pembayaran</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./pengaturan-pembayaran"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <CalendarCog className="h-5 w-5 text-fd-primary" />
+          <span>Pengaturan Cuti</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./pengaturan-cuti"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Calendar className="h-5 w-5 text-fd-primary" />
+          <span>Tahun Ajaran</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./tahun-ajaran"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Mail className="h-5 w-5 text-fd-primary" />
+          <span>Template Email</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./template-email"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FileCheck className="h-5 w-5 text-fd-primary" />
+          <span>Syarat & Ketentuan Ujian Online</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./syarat-ketentuan-ujian-online"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FileText className="h-5 w-5 text-fd-primary" />
+          <span>Syarat & Ketentuan</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./syarat-ketentuan"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ShieldCheck className="h-5 w-5 text-fd-primary" />
+          <span>Kebijakan Privasi</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./kebijakan-privasi"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <HelpCircle className="h-5 w-5 text-fd-primary" />
+          <span>Bantuan</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./bantuan"
+  />
+</Cards>
+

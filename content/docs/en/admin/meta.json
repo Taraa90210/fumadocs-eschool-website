@@ -1,0 +1,12 @@
+{
+    "title": "Admin",
+    "pages": [
+        "curriculum",
+        "student-affairs",
+        "public-relations",
+        "human-resources",
+        "treasurer",
+        "administrative-affairs",
+        "settings"
+    ]
+}

@@ -1,0 +1,74 @@
+---
+title: Jenis Biaya
+description: Halaman untuk mengelola berbagai jenis biaya yang dikenakan kepada siswa.
+icon: Tag
+---
+
+<img src="/images/jenis-biaya.png" alt="Jenis Biaya" className="w-200 mx-auto"/>
+
+Halaman **Jenis Biaya** digunakan untuk mengelola seluruh jenis biaya yang diterapkan di sekolah, seperti biaya rutin, ujian, pembangunan, maupun biaya opsional lainnya. Melalui halaman ini, pengguna dapat menambahkan, mengedit, menonaktifkan, atau menghapus data biaya sesuai kebutuhan.
+
+### 1. Informasi Dasar
+
+Bagian **Informasi Dasar** digunakan untuk menambahkan atau mengubah detail biaya.\
+Field yang tersedia meliputi:
+
+* **Tipe Biaya:** Menentukan jenis biaya, misalnya *rutin (bulanan)*, *sekali bayar*, atau *opsional*.
+* **Nama Biaya:** Nama biaya yang akan ditagihkan, contohnya “Iuran Kebersihan Sekolah” atau “Uang Ujian”.
+* **Kelas:** Menentukan kelas mana saja yang dikenai biaya. Pengguna dapat memilih satu atau beberapa kelas sekaligus.
+* **Jumlah (Rp):** Nominal biaya yang harus dibayarkan.
+* **Keterangan:** Deskripsi tambahan yang menjelaskan tujuan atau rincian biaya tersebut.
+
+### 2. Jadwal Pembayaran
+
+Bagian **Jadwal Pembayaran** berfungsi untuk menentukan periode tagihan dan waktu jatuh tempo.\
+Field yang tersedia:
+
+* **Mulai Tagih:** Tanggal awal dimulainya penagihan biaya.
+* **Akhir Tagih:** Tanggal terakhir penagihan untuk jenis biaya yang bersifat berulang.
+* **Tenggat Waktu:** Tanggal jatuh tempo pembayaran.
+* **Denda (%):** Persentase denda yang akan diterapkan apabila pembayaran melewati tenggat waktu.
+
+Setelah semua data diisi, klik **Simpan** untuk menyimpan jenis biaya baru atau pembaruan pada data yang sudah ada.\
+Tombol **Atur Ulang** dapat digunakan untuk menghapus seluruh input dan memulai pengisian dari awal.
+
+### 3. Daftar Jenis Biaya
+
+Bagian ini menampilkan seluruh daftar jenis biaya yang telah dibuat dalam bentuk tabel.\
+Kolom yang tersedia meliputi:
+
+* Jenis (Sekali, Rutin, Opsional, dan sebagainya)
+* Kelas
+* Keterangan
+* Denda (%)
+* Jumlah (Rp)
+* Mulai Tagih
+* Tenggat Waktu
+* Aksi
+
+Tabel dapat difilter berdasarkan tipe biaya dan memiliki fitur pencarian untuk mempermudah pencarian data tertentu.
+
+### 4. Aksi pada Data Biaya
+
+Setiap baris dalam tabel memiliki tombol **Aksi** di sisi kanan yang berfungsi untuk mengelola status biaya:
+
+* Jika biaya **aktif**, pengguna dapat memilih untuk **Edit** atau **Nonaktifkan**.
+* Jika biaya **nonaktif**, tombol aksi berubah menjadi **Aktifkan** atau **Hapus Permanen**.\
+  Fitur ini memudahkan pengguna mengatur siklus hidup data biaya tanpa harus menghapus data penting secara langsung.
+
+### 5. Detail Biaya
+
+Jika pengguna mengklik salah satu baris data pada tabel, maka akan muncul **modal Detail Biaya** yang menampilkan informasi lengkap tentang jenis biaya tersebut.\
+Informasi yang ditampilkan meliputi:
+
+* **Tipe Biaya** dan **Nama Biaya**
+* **Jumlah Biaya**
+* **Keterangan**
+* **Kelas yang dikenai biaya**
+* **Jadwal Pembayaran**, termasuk tanggal mulai tagih, akhir tagih, tenggat waktu, serta persentase denda
+
+Fitur ini membantu pengguna memeriksa detail biaya dengan cepat tanpa harus membuka halaman baru.
+
+***
+
+Jika Anda membutuhkan bantuan lebih lanjut, hubungi kami melalui [halaman Bantuan eSchool](https://www.eschool.ac.id/#contact-us).

@@ -1,0 +1,8 @@
+{
+    "title": "Leave",
+    "pages": [
+        "leave-dashboard",
+        "leave-management",
+        "leave-report"
+    ]
+}

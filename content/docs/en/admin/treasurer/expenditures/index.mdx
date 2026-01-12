@@ -1,0 +1,35 @@
+---
+title: Expenditures
+description: School expenditure management
+icon: Wallet
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { MinusCircle, Tags, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <MinusCircle className="h-5 w-5 text-fd-primary" />
+          <span>Expenditures</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./expenses"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Tags className="h-5 w-5 text-fd-primary" />
+          <span>Categories</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./categories"
+  />
+</Cards>

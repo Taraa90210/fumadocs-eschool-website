@@ -1,0 +1,75 @@
+---
+title: Impor Data
+description: Impor data siswa secara massal menggunakan file CSV
+icon: Upload
+---
+
+<img src="/images/impor-data-siswa.avif" alt="Description image"/>
+
+Fitur Impor Data Siswa dirancang untuk memudahkan proses entri massal data siswa ke dalam sistem eSchool SIAKAD Plus. Dengan fitur ini, admin tidak perlu menginput satu per satu melalui form manual, cukup menggunakan file CSV berformat khusus.
+
+---
+
+### Cara Mengakses
+
+1. Buka menu **Kesiswaan** > **Siswa** > **Impor Data**.
+2. Klik tombol **File Contoh** untuk mengunduh template CSV.
+3. Isi file sesuai format yang diberikan.
+4. Upload file menggunakan tombol **Unggah**.
+5. Klik **Simpan** untuk memproses data ke dalam sistem.
+
+---
+
+### Format File Wajib CSV
+
+> [!IMPORTANT]
+> Hanya file dengan ekstensi `.csv` (Comma Separated Values) yang bisa digunakan untuk proses impor.
+
+File yang diunggah harus memenuhi struktur yang sudah ditentukan, tidak bisa dalam format Excel (`.xlsx`), `.ods`, atau lainnya.
+
+---
+
+### Struktur Format CSV
+
+Berikut adalah struktur kolom yang wajib ada dalam file `.csv`:
+
+| Kolom | Keterangan |
+|-------|------------|
+| `first_name` | Nama depan siswa. |
+| `last_name` | Nama belakang siswa (bisa dikosongkan jika tidak ada). |
+| `mobile` | Nomor HP aktif siswa. |
+| `gender` | Jenis kelamin, hanya bisa berisi `male` atau `female`. |
+| `dob` | Tanggal lahir dalam format `dd-mm-yyyy`. |
+| `admission_date` | Tanggal penerimaan, format: `dd-mm-yyyy`. |
+| `current_address` | Alamat tempat tinggal saat ini. |
+| `permanent_address` | Alamat domisili tetap (bisa sama dengan alamat saat ini). |
+| `guardian_email` | Email wali murid (harus unik dan valid). |
+| `guardian_first_name` | Nama depan wali murid. |
+| `guardian_gender` | Jenis kelamin wali (`male` atau `female`). |
+| `guardian_mobile` | Nomor HP wali murid. |
+
+---
+
+### Tips Sukses Impor
+
+- Pastikan semua kolom terisi sesuai dengan format.
+- Jangan mengganti nama kolom dalam file CSV.
+- Gunakan aplikasi spreadsheet seperti Microsoft Excel, Google Sheets, atau LibreOffice untuk mengedit file CSV.
+- Simpan ulang file sebagai `.csv (Comma delimited)` sebelum diunggah.
+
+---
+
+### Kesalahan Umum yang Harus Dihindari
+
+| Kesalahan | Dampak |
+|-----------|--------|
+| **File bukan `.csv`** | Sistem akan menolak unggahan. |
+| **Kolom tidak lengkap atau salah nama** | Data tidak akan terbaca. |
+| **Format tanggal tidak sesuai** | Gagal diproses atau error. |
+| **Gender diisi selain "male/female"** | Ditolak oleh sistem. |
+| **Email duplikat** | Sistem tidak akan menyimpan data. |
+
+---
+
+### **Butuh Bantuan Lebih Lanjut?**
+Jika Anda membutuhkan bantuan lebih lanjut, hubungi kami melalui [halaman Bantuan eSchool](https://www.eschool.ac.id/#contact-us).

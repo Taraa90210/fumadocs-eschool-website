@@ -1,0 +1,83 @@
+---
+title: Dashboard Cuti
+description: Ringkasan dan statistik pengajuan cuti staf
+icon: LayoutDashboard
+---
+
+<img src="/images/dashboard-cuti.png" alt="Image description" />
+
+Halaman **Dasbor Cuti** digunakan untuk memantau data cuti staf secara keseluruhan, menampilkan statistik real-time, dan memberikan ringkasan singkat dalam bentuk tabel serta grafik.
+
+***
+
+### Tujuan
+
+Memudahkan admin atau HR sekolah untuk:
+
+* Melihat jumlah total cuti yang diajukan/diproses.
+* Memantau jumlah staf.
+* Melihat daftar pengajuan cuti terbaru.
+* Menganalisis distribusi status cuti (disetujui, ditolak, tertunda).
+* Melihat rekap pengajuan cuti minggu berjalan.
+
+***
+
+### Elemen pada Halaman Dasbor
+
+#### 1. **Statistik Singkat**
+
+Di bagian atas halaman terdapat dua kotak informasi:
+
+* **Total Cuti** → jumlah total pengajuan cuti yang terdata.
+* **Total Staff** → jumlah total staf yang terdaftar di sistem.
+
+***
+
+#### 2. **Tabel Daftar Cuti**
+
+Menampilkan daftar pengajuan cuti dalam format tabel, berisi:
+
+* **Nama** → nama staf yang mengajukan cuti.
+* **Tgl** → tanggal mulai hingga tanggal selesai cuti.
+* Data ditampilkan per halaman dengan opsi navigasi `pagination`.
+
+***
+
+#### 3. **Grafik Pie - Status Cuti (Hari Ini)**
+
+Menampilkan persentase status pengajuan cuti untuk hari ini:
+
+* **Tertunda** (warna merah gelap)
+* **Disetujui** (warna merah sedang)
+* **Ditolak** (warna merah muda)
+
+Grafik ini membantu untuk melihat komposisi status cuti secara cepat.
+
+***
+
+#### 4. **Grafik Batang - Rekap Minggu Ini**
+
+Grafik batang menampilkan jumlah pengajuan cuti yang **disetujui** untuk setiap hari di minggu berjalan.
+
+* Sumbu X → hari (Senin–Jumat)
+* Sumbu Y → jumlah pengajuan cuti disetujui
+
+***
+
+### Tips Penggunaan
+
+* Gunakan tabel daftar cuti untuk melihat detail siapa saja yang sedang cuti.
+* Cek grafik pie untuk memahami distribusi status cuti pada hari tertentu.
+* Gunakan grafik mingguan untuk memprediksi kebutuhan penggantian staf saat banyak yang cuti.
+
+***
+
+### Catatan Teknis
+
+* Data diperbarui secara real-time sesuai input/persetujuan cuti di modul pengajuan cuti.
+* Perubahan status cuti langsung memengaruhi grafik dan tabel.
+* Pagination digunakan untuk membatasi jumlah data dalam satu halaman agar tetap cepat diakses.
+
+***
+
+Jika Anda membutuhkan bantuan lebih lanjut, hubungi kami melalui [halaman Bantuan eSchool](https://www.eschool.ac.id/#contact-us).

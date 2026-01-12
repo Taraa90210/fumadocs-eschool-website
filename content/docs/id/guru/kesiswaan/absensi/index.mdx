@@ -1,0 +1,83 @@
+---
+title: Absensi
+description: Manajemen Absensi Siswa untuk Guru
+icon: CheckSquare
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { LayoutDashboard, CalendarCheck, ClipboardCheck, PlusSquare, FileCheck, BarChart3, FilePieChart, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <LayoutDashboard className="h-5 w-5 text-fd-primary" />
+          <span>Dashboard Absensi</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./dashboard-absensi-x"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <CalendarCheck className="h-5 w-5 text-fd-primary" />
+          <span>Absensi Kegiatan Khusus</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./absensi-kegiatan-khusus"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ClipboardCheck className="h-5 w-5 text-fd-primary" />
+          <span>Absensi Per Pelajaran</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./absensi-per-pelajaran"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FileCheck className="h-5 w-5 text-fd-primary" />
+          <span>Surat Izin Siswa</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./surat-izin-siswa-x"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <BarChart3 className="h-5 w-5 text-fd-primary" />
+          <span>Peringkat Poin Alpa</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./peringkat-poin-alpa-siswa"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FilePieChart className="h-5 w-5 text-fd-primary" />
+          <span>Laporan Absensi Kegiatan</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./laporan-absensi-kegiatan-khusus"
+  />
+</Cards>

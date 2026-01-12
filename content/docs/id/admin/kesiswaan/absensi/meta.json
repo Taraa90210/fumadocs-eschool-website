@@ -1,0 +1,14 @@
+{
+    "title": "Absensi",
+    "pages": [
+        "dashboard-absensi",
+        "absensi-kegiatan-khusus",
+        "surat-izin-siswa",
+        "peringkat-poin-alpa-siswa",
+        "laporan-absensi-kegiatan-khusus",
+        "laporan-absensi",
+        "laporan-sia-per-semester",
+        "laporan-poin-absensi",
+        "pengaturan-absensi"
+    ]
+}

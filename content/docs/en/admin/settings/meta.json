@@ -1,0 +1,15 @@
+{
+    "title": "Settings",
+    "pages": [
+        "school-profile",
+        "refunds",
+        "payment-settings",
+        "leave-settings",
+        "academic-year",
+        "email-templates",
+        "online-exam-terms-conditions",
+        "terms-conditions",
+        "privacy-policy",
+        "help"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Kurikulum",
+    "pages": [
+        "jadwal-pelajaran",
+        "tugas-siswa",
+        "ujian-offline",
+        "ujian-online",
+        "bank-soal"
+    ]
+}

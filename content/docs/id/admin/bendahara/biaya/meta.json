@@ -1,0 +1,10 @@
+{
+    "title": "Biaya",
+    "pages": [
+        "jenis-biaya",
+        "biaya-khusus",
+        "tagihan-siswa",
+        "kelola-pembayaran",
+        "impor-biaya"
+    ]
+}

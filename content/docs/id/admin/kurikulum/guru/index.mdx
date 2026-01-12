@@ -1,0 +1,47 @@
+---
+title: Guru
+description: Manajemen data guru dan tenaga kependidikan
+icon: UserCheck
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { List, UserCog, Upload, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <List className="h-5 w-5 text-fd-primary" />
+          <span>Dashboard Guru</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./dashboard-guru"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <UserCog className="h-5 w-5 text-fd-primary" />
+          <span>Guru</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./guru"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Upload className="h-5 w-5 text-fd-primary" />
+          <span>Impor Data</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./impor-data"
+  />
+</Cards>

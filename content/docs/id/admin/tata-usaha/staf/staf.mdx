@@ -1,0 +1,94 @@
+---
+title: Staf
+description: Halaman untuk mengelola data staf sekolah.
+icon: Users
+---
+
+<img src="/images/tambah-staff.png" alt="Image description" className="w-180 mx-auto"/>
+
+Halaman **Manajemen Staf** digunakan untuk mengelola data pegawai atau staf yang terdaftar di dalam sistem **E-SCHOOL SIAKAD Plus**. Administrator dapat menambahkan staf baru, memperbarui informasi staf yang sudah ada, menonaktifkan staf (soft delete), serta mengatur informasi gaji, tunjangan, dan potongan.
+
+***
+
+### **Tujuan**
+
+Fitur ini bertujuan untuk:
+
+* Mempermudah proses pencatatan dan pembaruan data staf.
+* Menyediakan informasi kepegawaian yang terpusat dan terstruktur.
+* Mengelola status keaktifan staf.
+* Mengatur perincian gaji secara terintegrasi.
+
+***
+
+### **Menambahkan Staf Baru**
+
+1. Isi formulir **Tambah Staf** dengan keterangan berikut:
+   * **Peran** (wajib diisi)
+   * **Nama Lengkap** (wajib diisi)
+   * **Nama Panggilan** (opsional)
+   * **Nomor HP** (opsional)
+   * **Email** (opsional)
+   * **Tanggal Lahir** (opsional)
+   * **Gaji** (wajib diisi dalam format angka)
+   * **Gambar Profil** (opsional, format JPG/PNG/SVG, ukuran 308×338 piksel)
+   * **Status** → *Aktif* atau *Nonaktif*
+2. Apabila diperlukan, tambahkan **Tunjangan** atau **Pengurangan** dengan memilih tombol **+ Tunjangan Baru** atau **+ Pengurangan Baru**.
+3. Klik **Simpan** untuk menambahkan data staf.
+
+***
+
+### **Daftar Staf**
+
+Tabel **Daftar Staf** menampilkan informasi staf yang sudah terdaftar, mencakup:
+
+* Nama
+* Nomor HP
+* Email
+* Peran
+* Aksi (ikon titik tiga vertikal **⋮**)
+
+Tersedia filter status **Aktif** atau **Nonaktif** untuk mempermudah pencarian data.
+
+***
+
+### **Menu Aksi**
+
+Klik ikon **⋮** pada kolom **Aksi** untuk menampilkan tiga opsi:
+
+1. **Edit** → Memperbarui data staf seperti peran, nama, kontak, gaji, foto, serta opsi *reset password*.\
+   Saat memilih opsi ini, akan muncul **jendela modal** seperti pada gambar kedua.
+2. **Informasi Gaji** → Mengatur rincian gaji, tunjangan, dan potongan staf.\
+   Opsi ini akan mengarahkan ke halaman **Informasi Gaji** seperti pada gambar ketiga.
+3. **Nonaktif** → Menonaktifkan staf tanpa menghapus permanen dari sistem (*soft delete*). Data staf yang dinonaktifkan tetap dapat diakses melalui filter **Nonaktif**.
+
+***
+
+### **Pengaturan Informasi Gaji**
+
+<img src="/images/pengaturan-informasi-gaji.avif" alt="Image description" className="w-180 mx-auto"/>
+
+Pada halaman **Informasi Gaji**, administrator dapat:
+
+* Menambahkan jenis **Tunjangan** beserta jumlahnya.
+* Menambahkan jenis **Pengurangan** beserta jumlah atau persentasenya.
+* Melihat rekapitulasi:
+  * **Gaji Pokok**
+  * **Total Tunjangan**
+  * **Total Pengurangan**
+  * **Gaji Bersih** (otomatis dihitung oleh sistem)
+* Menghapus entri tunjangan atau potongan dengan ikon **❌**.
+* Menyimpan perubahan dengan klik tombol **Simpan**.
+
+***
+
+### **Catatan Penting**
+
+* Gunakan filter **Aktif/Nonaktif** untuk memisahkan data staf yang sedang aktif bekerja dan yang sudah tidak aktif.
+* Pastikan data gaji yang diinput sudah benar sebelum menyimpan.
+* Fitur *Nonaktif* digunakan untuk menghentikan status aktif staf tanpa menghapus data historisnya.
+* Perubahan pada data gaji akan langsung mempengaruhi perhitungan gaji bersih staf.
+
+***
+
+Jika Anda membutuhkan bantuan lebih lanjut, hubungi kami melalui [halaman Bantuan eSchool](https://www.eschool.ac.id/#contact-us).

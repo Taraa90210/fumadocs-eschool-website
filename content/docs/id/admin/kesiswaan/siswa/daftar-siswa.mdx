@@ -1,0 +1,94 @@
+---
+title: Daftar Siswa
+description: Lihat dan edit data siswa terdaftar
+icon: List
+---
+
+<img src="/images/daftar-siswa-admin.avif" alt="Description image"/>
+
+Halaman **Daftar Siswa** adalah pusat kontrol untuk melihat, menyaring, dan mengelola data seluruh peserta didik dalam satuan pendidikan. Fitur ini sangat berguna bagi admin, operator sekolah, dan petugas kesiswaan.
+
+---
+
+### Tampilan Daftar Siswa
+
+Tabel daftar siswa menampilkan informasi penting, meliputi:
+
+| Kolom | Keterangan |
+|-------|------------|
+| **No** | Nomor urutan tampilan siswa di halaman |
+| **No Pendaftaran** | Nomor registrasi siswa per tahun ajaran |
+| **NIPD** | Nomor Induk Peserta Didik (internal sekolah) |
+| **NISN** | Nomor Induk Siswa Nasional |
+| **Nama Lengkap** | Nama resmi siswa |
+| **Nama Panggilan** | Nama sehari-hari atau informal |
+| **Kelas** | Kelas yang sedang ditempati siswa |
+| **Jenis Kelamin** | Laki-laki atau Perempuan |
+| **Aksi** | Ikon titik tiga untuk mengakses fitur tambahan (lihat/edit data, hapus, dll) |
+
+---
+
+### Fitur Filter dan Navigasi
+
+- **Tahun Ajaran, Tingkatan, dan Kelas** dapat disaring menggunakan dropdown untuk menyesuaikan tampilan data.
+- **Cari** memungkinkan pencarian berdasarkan nama, NISN, atau info lainnya.
+- **Status Aktif / Nonaktif** dapat diklik di pojok kanan atas untuk memfilter tampilan siswa berdasarkan status.
+
+---
+
+<img src="/images/edit-siswa-admin.avif" alt="Description image" className="w-180 h-160 mx-auto"/>
+
+### Edit Siswa
+
+Jika pengguna mengklik **ikon titik tiga (⋮)** pada salah satu siswa, lalu memilih opsi **Edit**, maka akan muncul tampilan form seperti berikut.
+
+---
+
+### Form Edit Data Siswa
+
+Berisi detail lengkap siswa yang dapat disunting, terdiri dari dua bagian utama: **Data Siswa** dan **Data Wali Murid**.
+
+#### 🔸 Data Siswa
+
+| Kolom | Keterangan |
+|-------|------------|
+| **No Pendaftaran** | Tidak bisa diubah, sebagai identitas unik |
+| **Tahun Ajaran** | Tahun ajaran aktif siswa tersebut |
+| **Tingkatan & Kelas** | Pilih sesuai struktur akademik |
+| **Nama Lengkap & Panggilan** | Nama resmi & nama harian siswa |
+| **Tgl Lahir** | Format: dd-mm-yyyy |
+| **Jenis Kelamin** | Laki-laki / Perempuan |
+| **Gambar** | Unggah foto siswa (jika tersedia) |
+| **Alamat Saat Ini & Domisili** | Informasi alamat tinggal dan domisili |
+| **No HP** | Kontak siswa |
+| **NISN & NIPD** | Nomor identifikasi nasional dan lokal |
+| **Reset Password** | Centang jika ingin mengatur ulang password akun siswa |
+
+#### 🔸 Data Wali Murid
+
+| Kolom | Keterangan |
+|-------|------------|
+| **Email Wali** | Digunakan sebagai akun wali murid |
+| **Nama Depan & Belakang** | Nama orang tua / wali |
+| **No HP Wali** | Kontak orang tua |
+| **Jenis Kelamin Wali** | Laki-laki / Perempuan |
+| **Foto** | Bisa unggah foto wali murid juga |
+
+---
+
+### Simpan Perubahan
+
+Setelah semua data diperbarui, klik tombol **Simpan** untuk menyimpan perubahan ke sistem.
+
+---
+
+### Tips & Catatan
+
+- Pastikan tidak ada kolom wajib yang kosong untuk menghindari error.
+- Perubahan data seperti kelas, nama, atau NISN akan langsung terupdate di sistem lain yang terintegrasi seperti **absensi, nilai, dan akun login**.
+- Gunakan fitur ini dengan hati-hati karena menyangkut integritas data siswa secara menyeluruh.
+
+---
+
+### **Butuh Bantuan Lebih Lanjut?**
+Jika Anda membutuhkan bantuan lebih lanjut, hubungi kami melalui [halaman Bantuan eSchool](https://www.eschool.ac.id/#contact-us).

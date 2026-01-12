@@ -1,0 +1,35 @@
+---
+title: Student Affairs
+description: Manage student data and attendance.
+icon: Users
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { UserCircle, CheckSquare, ChevronRight } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <UserCircle className="h-5 w-5 text-fd-primary" />
+          <span>Student</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./student"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <CheckSquare className="h-5 w-5 text-fd-primary" />
+          <span>Attendance</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="./attendance"
+  />
+</Cards>

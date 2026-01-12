@@ -1,0 +1,14 @@
+{
+    "title": "Attendance",
+    "pages": [
+        "attendance-dashboard",
+        "special-activity-attendance",
+        "student-leave-permits",
+        "alpha-point-rankings",
+        "special-activity-attendance-report",
+        "attendance-report",
+        "semester-sia-report",
+        "attendance-point-report",
+        "attendance-settings"
+    ]
+}

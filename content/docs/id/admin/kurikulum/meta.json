@@ -1,0 +1,22 @@
+{
+    "title": "Kurikulum",
+    "pages": [
+        "dashboard-kurikulum",
+        "bahasa-pengantar",
+        "kelompok-belajar",
+        "jurusan",
+        "kelas",
+        "mata-pelajaran",
+        "mata-pelajaran-per-kelas",
+        "guru-kelas",
+        "pindah-kelas-x",
+        "nomor-urut",
+        "semester",
+        "shift",
+        "jadwal-pelajaran",
+        "tugas-siswa",
+        "ujian-offline",
+        "ujian-online",
+        "guru"
+    ]
+}

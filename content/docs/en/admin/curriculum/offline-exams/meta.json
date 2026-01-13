@@ -1,5 +1,6 @@
 {
     "title": "Offline Exams",
+    "icon": "Clipboard",
     "pages": [
         "exams"
     ]

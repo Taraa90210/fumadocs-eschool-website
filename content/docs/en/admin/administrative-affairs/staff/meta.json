@@ -1,5 +1,6 @@
 {
     "title": "Staff",
+    "icon": "UserCog",
     "pages": [
         "staff-management",
         "access-rights",

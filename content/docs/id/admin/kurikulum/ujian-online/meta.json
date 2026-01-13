@@ -1,5 +1,6 @@
 {
     "title": "Ujian Online",
+    "icon": "MonitorCheck",
     "pages": [
         "dashboard-ujian-online",
         "ujian",

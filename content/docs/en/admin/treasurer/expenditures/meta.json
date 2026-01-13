@@ -1,5 +1,6 @@
 {
     "title": "Expenditures",
+    "icon": "Wallet",
     "pages": [
         "expenses",
         "categories"

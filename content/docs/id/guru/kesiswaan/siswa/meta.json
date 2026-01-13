@@ -1,5 +1,6 @@
 {
     "title": "Siswa",
+    "icon": "Users",
     "pages": [
         "dashboard-kesiswaan",
         "siswa"

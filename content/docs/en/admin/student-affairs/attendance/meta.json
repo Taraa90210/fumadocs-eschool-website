@@ -1,5 +1,6 @@
 {
     "title": "Attendance",
+    "icon": "CalendarCheck",
     "pages": [
         "attendance-dashboard",
         "special-activity-attendance",

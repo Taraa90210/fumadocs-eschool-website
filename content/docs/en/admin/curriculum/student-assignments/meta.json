@@ -1,5 +1,6 @@
 {
     "title": "Student Assignments",
+    "icon": "BookCopy",
     "pages": [
         "submissions"
     ]

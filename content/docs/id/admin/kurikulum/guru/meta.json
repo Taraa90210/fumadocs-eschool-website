@@ -1,5 +1,6 @@
 {
     "title": "Guru",
+    "icon": "UserCheck",
     "pages": [
         "dashboard-guru",
         "guru",

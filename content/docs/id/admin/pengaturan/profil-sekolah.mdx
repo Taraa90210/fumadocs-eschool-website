@@ -4,55 +4,79 @@ description: Kelola informasi profil sekolah
 icon: School
 ---
 
+<img src="/images/profil-sekolah.png" alt="Profil Sekolah" className="w-180 mx-auto"/>
 
+Halaman **Profil Sekolah** digunakan untuk mengelola dan memperbarui informasi identitas sekolah di dalam sistem **E-SCHOOL SIAKAD Plus**. Data yang diinput pada halaman ini akan ditampilkan pada berbagai modul sistem dan menjadi rujukan utama untuk profil lembaga pendidikan.
 
-Halaman untuk mengelola informasi profil dan identitas sekolah.
+***
 
----
+### **Tujuan**
 
-### Tujuan
+Fitur ini bertujuan untuk:
 
-Menyediakan antarmuka untuk mengatur dan memperbarui informasi dasar sekolah yang ditampilkan di seluruh sistem.
+* Menyimpan informasi resmi sekolah secara terpusat.
+* Menyediakan data identitas sekolah yang konsisten di seluruh modul.
+* Memudahkan pembaruan informasi profil tanpa memengaruhi data akademik.
 
----
+***
 
-### Komponen dan Pengaturan
+### **Komponen dan Pengaturan**
 
-#### Informasi Dasar
-- **Nama Sekolah**: Nama resmi institusi
-- **Alamat**: Alamat lengkap sekolah
-- **Nomor Telepon**: Kontak sekolah
-- **Email**: Email resmi sekolah
-- **Website**: URL website sekolah
+#### **1. Informasi Umum Sekolah**
 
-#### Identitas Visual
-- **Logo Sekolah**: Upload logo resmi (format: jpg, png, svg)
-- **Favicon**: Icon untuk browser tab
-- **Banner**: Gambar header untuk portal
+* **Nama Sekolah** → Nama resmi sekolah.
+* **Email Sekolah** → Alamat email resmi sekolah.
+* **Kode Sekolah** → Nomor kode unik sekolah (tidak dapat diubah).
+* **Telepon** → Nomor telepon sekolah.
+* **Slogan Sekolah** → Moto atau tagline sekolah.
+* **Alamat Sekolah** → Alamat lengkap sekolah beserta kode pos.
 
-#### Informasi Tambahan
-- **NPSN**: Nomor Pokok Sekolah Nasional
-- **NSS**: Nomor Statistik Sekolah
-- **Akreditasi**: Status dan nilai akreditasi
-- **Tahun Berdiri**: Tahun pendirian sekolah
+***
 
----
+#### **2. Format Tanggal dan Waktu**
 
-### Tombol Aksi
+* **Format Tanggal** → Pilih format penulisan tanggal yang akan digunakan di sistem.
+* **Format Waktu** → Pilih format penulisan waktu (misalnya *Hi - 11:30*).
 
-- **Simpan**: Menyimpan semua perubahan
-- **Reset**: Mengembalikan ke data sebelumnya
-- **Preview**: Melihat tampilan profil
+***
 
----
+#### **3. Identitas Visual**
 
-### Catatan Penting
+* **Favicon** → Logo kecil yang akan muncul di tab browser.
+* **Logo Horizontal** → Logo sekolah versi horizontal.
+* **Logo Vertikal** → Logo sekolah versi vertikal.
+* Semua file gambar dapat diunggah menggunakan tombol **Unggah**.
 
-- Pastikan semua informasi akurat dan terkini
-- Logo dan gambar sebaiknya beresolusi tinggi
-- Perubahan profil akan terlihat di seluruh sistem
+***
 
----
+#### **4. Lokasi dan Domain**
 
-### **Butuh Bantuan Lebih Lanjut?**
+* **Tautan Google Peta** → Link Google Maps lokasi sekolah (dapat menggunakan konversi URI penyematan).
+* **Domain** → Subdomain sekolah yang digunakan untuk akses publik.
+
+***
+
+#### **5. Pengaturan Nomor Urut**
+
+* **Penyortiran Nomor Urut** → Mengatur urutan daftar siswa berdasarkan parameter tertentu (misalnya *Nama Depan - Menaik*).
+* **Ubah Nomor Urut untuk Semua Kelas** → Fitur untuk memperbarui urutan nomor siswa di seluruh kelas sekaligus.
+
+***
+
+### **Tombol Aksi**
+
+* **Atur** → Menyimpan pengaturan sementara atau melakukan konfigurasi tambahan.
+* **Simpan** → Menyimpan semua perubahan dan memperbarui profil sekolah di sistem.
+
+***
+
+### **Catatan Penting**
+
+* Perubahan informasi di halaman ini akan langsung memengaruhi tampilan di modul lain, seperti cetak rapor, kop surat, dan tampilan portal publik.
+* Pastikan semua informasi diisi dengan benar dan diperbarui secara berkala.
+* Gunakan logo dengan resolusi tinggi agar tampilan lebih profesional.
+* Tautan Google Maps harus benar agar fitur peta dapat berfungsi dengan optimal.
+
+***
+
 Jika Anda membutuhkan bantuan lebih lanjut, hubungi kami melalui [halaman Bantuan eSchool](https://www.eschool.ac.id/#contact-us).

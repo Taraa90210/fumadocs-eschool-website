@@ -1,5 +1,6 @@
 {
     "title": "Absensi per Pelajaran",
+    "icon": "ClipboardList",
     "pages": [
         "tambah-absensi"
     ]

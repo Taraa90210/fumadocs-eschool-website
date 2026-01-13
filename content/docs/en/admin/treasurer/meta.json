@@ -1,5 +1,6 @@
 {
     "title": "Treasurer",
+    "icon": "CircleDollarSign",
     "pages": [
         "finance-dashboard",
         "fees",

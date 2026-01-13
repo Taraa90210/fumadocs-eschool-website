@@ -1,5 +1,6 @@
 {
     "title": "Student",
+    "icon": "Users",
     "pages": [
         "student-affairs-dashboard",
         "students"

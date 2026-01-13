@@ -1,5 +1,6 @@
 {
     "title": "Teacher",
+    "icon": "Users",
     "pages": [
         "curriculum",
         "student-affairs",

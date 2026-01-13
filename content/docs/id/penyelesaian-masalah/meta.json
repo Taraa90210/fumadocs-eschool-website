@@ -1,5 +1,6 @@
 {
     "title": "Penyelesaian Masalah",
+    "icon": "LifeBuoy",
     "pages": [
         "masalah-login",
         "lupa-password"

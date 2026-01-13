@@ -1,5 +1,6 @@
 {
     "title": "Bendahara",
+    "icon": "CircleDollarSign",
     "pages": [
         "dashboard-keuangan",
         "biaya",

@@ -4,65 +4,64 @@ description: Configure payment methods and gateways
 icon: CreditCard
 ---
 
+<img src="/images/pengaturan-pembayaran.avif" alt="Payment Settings" />
 
-Page for configuring payment methods and payment gateway integrations.
+The **Payment Settings** menu is used to manage currency information and official payment methods accepted by the school. This feature ensures that all financial transactions are conducted in a structured, secure manner, and in accordance with institutional policies.
 
----
+***
 
-### Main Function
+#### **1. Currency Settings**
 
-Manage various payment methods available for parents/students to perform school fee payments.
+This section serves to determine the type of currency and symbols used for all transactions within the system.
 
----
+* **Currency**: Select the currency code (e.g., *IDR* for Indonesian Rupiah).
+* **Currency Symbol**: Enter the symbol that will be displayed on transaction amounts (e.g., *Rp*).
+* Click **Save** to apply the settings.
 
-### Payment Methods
+***
 
-#### Manual Payment
-- **Cash**: Direct payment at school
-- **Bank Transfer**: Transfer to school account
-- **Check/Giro**: Payment using checks
+#### **2. Payment Methods**
 
-#### Payment Gateway
-- **Midtrans**: Integration with Midtrans
-- **Xendit**: Integration with Xendit
-- **DOKU**: Integration with DOKU
-- **Others**: Other payment gateways
+This section is used to add, modify, or delete payment methods available at the school, either through bank accounts or digital wallets.
 
----
+**Information that can be configured includes:**
 
-### Gateway Configuration
+* **Name**: The name of the bank or payment service provider (e.g., Bank Mandiri, BRI, Bank Syariah Indonesia, Dana, etc.).
+* **Account Number**: A valid account number or payment account number.
+* **In the Name of**: The name of the account holder or official school account.
+* **Image**: The logo of the bank or provider (optional, for easier identification).
 
-For each payment gateway, set:
-- **API Key**: API key from the provider
-- **Merchant ID**: School merchant ID
-- **Environment**: Production or Sandbox
-- **Status**: Active or Inactive
+***
 
-#### Additional Settings
-- Admin fees (if any)
-- Supported payment methods (credit card, e-wallet, etc.)
-- Automatic payment notifications
+#### **3. Adding a New Payment Method**
 
----
+1. Click the **Add** button in the *Payment Methods* section.
+2. Fill in the **Name**, **Account Number**, **In the Name of** fields, and upload an image/logo if necessary.
+3. Click **Save** to save the new payment method.
 
-### School Bank Accounts
+***
 
-Add account information for manual transfer:
-- Bank Name
-- Account Number
-- Account Holder Name
-- Branch
+#### **4. Modifying or Deleting Payment Methods**
 
----
+1. In the list of payment methods, click the **three-dot icon** in the *Action* column.
+2. Two options will appear:
+   * **Edit**: Opens the *Edit Payment Method* window (modal) to update data, including replacing the logo.
+   * **Delete**: Permanently removes the payment method from the list. Ensure this option is only used if the method is no longer in use.
 
-### Usage Tips
+**Steps to Edit:**
 
-- Activate at least one payment method
-- Test configuration in sandbox environment first
-- Inform parents about available payment methods
-- Monitor transactions regularly
+* Update information as needed.
+* To replace the logo, click **Upload** to select a new image file or **Remove Image** to get rid of the existing logo.
+* Click **Save** to save the changes.
 
----
+***
 
-### **Need Further Help?**
+#### **Benefits of This Feature**
+
+* Simplifies centralized management of school account data.
+* Avoids payment information errors for students or parents/guardians.
+* Enhances transparency and accuracy in school financial transactions.
+
+***
+
 If you require further assistance, contact us through the [eSchool Help page](https://www.eschool.ac.id/#contact-us).

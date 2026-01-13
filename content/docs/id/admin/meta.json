@@ -1,5 +1,6 @@
 {
     "title": "Admin",
+    "icon": "UserCog",
     "pages": [
         "kurikulum",
         "kesiswaan",

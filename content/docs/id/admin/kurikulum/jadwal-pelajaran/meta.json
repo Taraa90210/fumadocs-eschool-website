@@ -1,5 +1,6 @@
 {
     "title": "Jadwal Pelajaran",
+    "icon": "CalendarRange",
     "pages": [
         "buat-jadwal",
         "jadwal-guru"

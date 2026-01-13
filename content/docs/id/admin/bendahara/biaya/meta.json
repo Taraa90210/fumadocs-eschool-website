@@ -1,5 +1,6 @@
 {
     "title": "Biaya",
+    "icon": "Receipt",
     "pages": [
         "jenis-biaya",
         "biaya-khusus",

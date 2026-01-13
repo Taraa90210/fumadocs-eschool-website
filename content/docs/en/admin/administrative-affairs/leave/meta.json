@@ -1,5 +1,6 @@
 {
     "title": "Leave",
+    "icon": "CalendarX2",
     "pages": [
         "leave-dashboard",
         "leave-management",

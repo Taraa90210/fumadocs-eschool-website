@@ -1,5 +1,6 @@
 {
     "title": "New User Guide",
+    "icon": "BookOpen",
     "pages": [
         "registration",
         "login"

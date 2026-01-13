@@ -1,5 +1,6 @@
 {
-    "title": "Policy",
+    "title": "Policy & Security",
+    "icon": "ShieldCheck",
     "pages": [
         "security",
         "terms-conditions",

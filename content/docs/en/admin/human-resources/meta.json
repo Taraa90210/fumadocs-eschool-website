@@ -1,5 +1,6 @@
 {
     "title": "PSDM",
+    "icon": "Users",
     "pages": [
         "teacher-attendance",
         "absent-teachers",

@@ -1,5 +1,6 @@
 {
     "title": "Per-Subject Attendance",
+    "icon": "ClipboardList",
     "pages": [
         "add-attendance"
     ]

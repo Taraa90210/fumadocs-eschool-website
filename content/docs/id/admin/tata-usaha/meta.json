@@ -1,5 +1,6 @@
 {
     "title": "Tata Usaha",
+    "icon": "FileText",
     "pages": [
         "cuti",
         "staf"

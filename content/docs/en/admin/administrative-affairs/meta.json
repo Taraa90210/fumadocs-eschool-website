@@ -1,5 +1,6 @@
 {
     "title": "Administrative Affairs",
+    "icon": "FileText",
     "pages": [
         "leave",
         "staff"

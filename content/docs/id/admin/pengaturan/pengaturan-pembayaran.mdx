@@ -4,66 +4,64 @@ description: Konfigurasi metode dan gateway pembayaran
 icon: CreditCard
 ---
 
+<img src="/images/pengaturan-pembayaran.avif" alt="Pengaturan Pembayaran" />
 
+Menu **Pengaturan Pembayaran** digunakan untuk mengatur informasi mata uang dan metode pembayaran resmi yang diterima oleh sekolah. Fitur ini memastikan bahwa seluruh transaksi keuangan dilakukan secara terstruktur, aman, dan sesuai dengan kebijakan lembaga.
 
-Halaman untuk mengkonfigurasi metode pembayaran dan integrasi payment gateway.
+***
 
----
+#### **1. Pengaturan Mata Uang**
 
-### Fungsi Utama
+Bagian ini berfungsi untuk menentukan jenis mata uang dan simbol yang digunakan pada seluruh transaksi dalam sistem.
 
-Mengatur berbagai metode pembayaran yang tersedia untuk orang tua/siswa dalam melakukan pembayaran biaya sekolah.
+* **Mata Uang**: Pilih kode mata uang (misalnya *IDR* untuk Rupiah Indonesia).
+* **Simbol Mata Uang**: Masukkan simbol yang akan ditampilkan pada nominal transaksi (misalnya *Rp*).
+* Klik **Simpan** untuk menerapkan pengaturan.
 
----
+***
 
-### Metode Pembayaran
+#### **2. Metode Pembayaran**
 
-#### Pembayaran Manual
-- **Tunai**: Pembayaran langsung di sekolah
-- **Transfer Bank**: Transfer ke rekening sekolah
-- **Cek/Giro**: Pembayaran menggunakan cek
+Bagian ini digunakan untuk menambahkan, mengubah, atau menghapus metode pembayaran yang tersedia di sekolah, baik melalui rekening bank maupun dompet digital.
 
-#### Payment Gateway
-- **Midtrans**: Integrasi dengan Midtrans
-- **Xendit**: Integrasi dengan Xendit
-- **DOKU**: Integrasi dengan DOKU
-- **Lainnya**: Gateway pembayaran lainnya
+**Informasi yang dapat diatur meliputi:**
 
----
+* **Nama**: Nama bank atau penyedia layanan pembayaran (contoh: Bank Mandiri, BRI, Bank Syariah Indonesia, Dana, dll.).
+* **Nomor Rekening**: Nomor rekening atau nomor akun pembayaran yang valid.
+* **Atas Nama**: Nama pemilik rekening atau akun resmi sekolah.
+* **Gambar**: Logo bank atau penyedia layanan (opsional, untuk memudahkan identifikasi).
 
-### Konfigurasi Gateway
+***
 
-Untuk setiap payment gateway, atur:
-- **API Key**: Kunci API dari provider
-- **Merchant ID**: ID merchant sekolah
-- **Environment**: Production atau Sandbox
-- **Status**: Aktif atau Nonaktif
+#### **3. Menambahkan Metode Pembayaran Baru**
 
-#### Pengaturan Tambahan
-- Biaya admin (jika ada)
-- Metode pembayaran yang didukung (kartu kredit, e-wallet, dll)
-- Notifikasi pembayaran otomatis
+1. Klik tombol **Tambah** pada bagian *Metode Pembayaran*.
+2. Isi kolom **Nama**, **Nomor Rekening**, **Atas Nama**, dan unggah gambar/logo jika diperlukan.
+3. Klik **Simpan** untuk menyimpan metode pembayaran baru.
 
----
+***
 
-### Rekening Bank Sekolah
+#### **4. Mengubah atau Menghapus Metode Pembayaran**
 
-Tambahkan informasi rekening untuk transfer manual:
-- Nama Bank
-- Nomor Rekening
-- Atas Nama
-- Cabang
+1. Pada daftar metode pembayaran, klik **ikon titik tiga** di kolom *Aksi*.
+2. Akan muncul dua pilihan:
+   * **Edit**: Membuka jendela *Edit Metode Pembayaran* (modal) untuk memperbarui data, termasuk mengganti logo.
+   * **Hapus**: Menghapus metode pembayaran secara **permanen** dari daftar. Pastikan pilihan ini hanya digunakan jika metode tersebut tidak lagi digunakan.
 
----
+**Langkah Mengedit:**
 
-### Tips Penggunaan
+* Perbarui informasi sesuai kebutuhan.
+* Jika ingin mengganti logo, klik **Unggah** untuk memilih file gambar baru atau **Hapus Gambar** untuk menghilangkan logo yang ada.
+* Klik **Simpan** untuk menyimpan perubahan.
 
-- Aktifkan minimal satu metode pembayaran
-- Test konfigurasi di environment sandbox terlebih dahulu
-- Informasikan metode pembayaran yang tersedia kepada orang tua
-- Monitor transaksi secara berkala
+***
 
----
+#### **Manfaat Fitur Ini**
 
-### **Butuh Bantuan Lebih Lanjut?**
+* Mempermudah pengelolaan data rekening sekolah secara terpusat.
+* Menghindari kesalahan informasi pembayaran kepada siswa atau wali siswa.
+* Meningkatkan transparansi dan akurasi dalam transaksi keuangan sekolah.
+
+***
+
 Jika Anda membutuhkan bantuan lebih lanjut, hubungi kami melalui [halaman Bantuan eSchool](https://www.eschool.ac.id/#contact-us).

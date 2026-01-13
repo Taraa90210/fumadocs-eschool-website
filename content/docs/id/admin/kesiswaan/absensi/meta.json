@@ -1,5 +1,6 @@
 {
     "title": "Absensi",
+    "icon": "CalendarCheck",
     "pages": [
         "dashboard-absensi",
         "absensi-kegiatan-khusus",

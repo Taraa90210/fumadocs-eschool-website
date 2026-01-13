@@ -1,5 +1,6 @@
 {
     "title": "Kurikulum",
+    "icon": "BookOpen",
     "pages": [
         "dashboard-kurikulum",
         "bahasa-pengantar",

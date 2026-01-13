@@ -1,5 +1,6 @@
 {
     "title": "Curriculum",
+    "icon": "BookOpen",
     "pages": [
         "dashboard",
         "instructional-language",

@@ -1,5 +1,6 @@
 {
     "title": "Troubleshooting",
+    "icon": "LifeBuoy",
     "pages": [
         "login-issues",
         "forgot-password"

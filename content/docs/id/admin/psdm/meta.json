@@ -1,5 +1,6 @@
 {
     "title": "PSDM",
+    "icon": "Users",
     "pages": [
         "guru-absen",
         "guru-tidak-absen",

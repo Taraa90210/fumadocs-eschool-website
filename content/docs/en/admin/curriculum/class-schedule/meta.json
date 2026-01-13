@@ -1,5 +1,6 @@
 {
     "title": "Class Schedule",
+    "icon": "CalendarRange",
     "pages": [
         "create",
         "teacher-schedule"

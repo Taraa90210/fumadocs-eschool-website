@@ -1,5 +1,6 @@
 {
     "title": "Panduan Pengguna Baru",
+    "icon": "BookOpen",
     "pages": [
         "pendaftaran",
         "login"

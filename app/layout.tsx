@@ -1,10 +1,19 @@
 import { RootProvider } from "fumadocs-ui/provider/next";
+import { Metadata } from "next";
 import "./global.css";
 import { Inter } from "next/font/google";
 
 const inter = Inter({
   subsets: ["latin"],
 });
+
+export const metadata: Metadata = {
+  title: {
+    template: "eSchool Website | %s",
+    default: "eSchool Website",
+  },
+  description: "Dokumentasi eSchool Website",
+};
 
 export default function Layout({ children }: LayoutProps<"/">) {
   return (

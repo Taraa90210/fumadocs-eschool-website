@@ -2,8 +2,25 @@ import { icons, ChevronRight } from "lucide-react";
 import { source } from "@/lib/source";
 import { DocsPage, DocsBody, DocsTitle } from "fumadocs-ui/page";
 import defaultMdxComponents from "fumadocs-ui/mdx";
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import React from "react";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; slug?: string[] }>;
+}): Promise<Metadata> {
+  const { locale, slug } = await params;
+  const page = source.getPage(slug, locale);
+
+  if (!page) notFound();
+
+  return {
+    title: page.data.title,
+    description: page.data.description ?? "Dokumentasi eSchool Website",
+  };
+}
 
 export default async function Page({
   params,

@@ -3,5 +3,6 @@
     "pages": [
         "tambah-penugasan",
         "edit-penugasan"
-    ]
+    ],
+    "icon": "FilePlusCorner"
 }

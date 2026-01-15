@@ -3,5 +3,6 @@
     "pages": [
         "add-assignment",
         "edit-assignment"
-    ]
+    ],
+    "icon": "FilePlusCorner"
 }

@@ -5,5 +5,6 @@
         "edit-online-exam",
         "online-exam-correction",
         "online-exam-status"
-    ]
+    ],
+    "icon": "Monitor"
 }

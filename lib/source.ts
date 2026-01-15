@@ -1,7 +1,7 @@
 import { docs } from "fumadocs-mdx:collections/server";
 import { loader, type InferPageType } from "fumadocs-core/source";
 import { lucideIconsPlugin } from "fumadocs-core/source/lucide-icons";
-import { icons } from "lucide-react";
+import * as LucideIcons from "lucide-react";
 import { createElement } from "react";
 
 // SOURCE UTAMA
@@ -10,8 +10,8 @@ export const source = loader({
   source: docs.toFumadocsSource(),
   plugins: [lucideIconsPlugin()],
   icon(name) {
-    if (name && name in icons) {
-      return createElement(icons[name as keyof typeof icons]);
+    if (name && name in LucideIcons) {
+      return createElement(LucideIcons[name as keyof typeof LucideIcons] as any);
     }
   },
   i18n: {

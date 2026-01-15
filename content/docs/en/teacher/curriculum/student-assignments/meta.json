@@ -3,5 +3,6 @@
     "pages": [
         "create-assignment",
         "submissions"
-    ]
+    ],
+    "icon": "ClipboardList"
 }

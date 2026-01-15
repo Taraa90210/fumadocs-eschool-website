@@ -4,5 +4,6 @@
         "create-schedule",
         "status-labels",
         "edit-exam"
-    ]
+    ],
+    "icon": "Clipboard"
 }

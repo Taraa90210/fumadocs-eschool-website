@@ -4,5 +4,6 @@
         "dashboard-ujian-online",
         "ujian-online",
         "bank-soal"
-    ]
+    ],
+    "icon": "Monitor"
 }

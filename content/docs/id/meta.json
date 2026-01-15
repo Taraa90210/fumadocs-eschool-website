@@ -1,22 +1,23 @@
 {
-  "title": "eSchool Website",
-  "pages": [
-    "index",
-    "---Pengenalan---",
-    "pengenalan/gambaran-umum",
-    "pengenalan/tampilan-eschool",
-    "---Panduan Pengguna Baru---",
-    "panduan-pengguna-baru/pendaftaran",
-    "panduan-pengguna-baru/login",
-    "guru",
-    "admin",
-    "---Penyelesaian Masalah---",
-    "penyelesaian-masalah/masalah-login",
-    "penyelesaian-masalah/lupa-password",
-    "---Kebijakan & Keamanan---",
-    "kebijakan/keamanan",
-    "kebijakan/syarat-ketentuan",
-    "kebijakan/privasi",
-    "kebijakan/hubungi-kami"
-  ]
+    "title": "eSchool Website",
+    "pages": [
+        "index",
+        "---Pengenalan---",
+        "pengenalan/gambaran-umum",
+        "pengenalan/tampilan-eschool",
+        "---Panduan Pengguna Baru---",
+        "panduan-pengguna-baru/pendaftaran",
+        "panduan-pengguna-baru/login",
+        "guru",
+        "admin",
+        "---Penyelesaian Masalah---",
+        "penyelesaian-masalah/masalah-login",
+        "penyelesaian-masalah/lupa-password",
+        "---Kebijakan & Keamanan---",
+        "kebijakan/keamanan",
+        "kebijakan/syarat-ketentuan",
+        "kebijakan/privasi",
+        "kebijakan/hubungi-kami"
+    ],
+    "icon": "Globe"
 }

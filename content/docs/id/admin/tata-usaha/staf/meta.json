@@ -4,5 +4,6 @@
         "staf",
         "hak-akses",
         "impor-data"
-    ]
+    ],
+    "icon": "UserCog"
 }

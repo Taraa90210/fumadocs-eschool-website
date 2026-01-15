@@ -3,5 +3,6 @@
     "pages": [
         "buat-tugas",
         "pengumpulan"
-    ]
+    ],
+    "icon": "ClipboardList"
 }

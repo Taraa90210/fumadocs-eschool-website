@@ -6,5 +6,6 @@
         "edit-ujian-online",
         "koreksi-ujian-online",
         "status-ujian-online"
-    ]
+    ],
+    "icon": "Monitor"
 }

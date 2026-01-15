@@ -3,5 +3,6 @@
     "pages": [
         "pengumuman",
         "hari-libur"
-    ]
+    ],
+    "icon": "LayoutDashboard"
 }

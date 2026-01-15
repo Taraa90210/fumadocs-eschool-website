@@ -4,5 +4,6 @@
         "schedule",
         "upload-results",
         "exam-results"
-    ]
+    ],
+    "icon": "MonitorOff"
 }

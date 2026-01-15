@@ -3,5 +3,6 @@
     "pages": [
         "announcements",
         "holidays"
-    ]
+    ],
+    "icon": "LayoutDashboard"
 }

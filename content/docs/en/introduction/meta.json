@@ -3,5 +3,6 @@
     "pages": [
         "overview",
         "eschool-interface"
-    ]
+    ],
+    "icon": "Book"
 }

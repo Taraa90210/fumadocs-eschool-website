@@ -7,7 +7,7 @@ export default function middleware(request: NextRequest) {
   // 1️⃣ Kalau user buka ROOT (/)
   if (pathname === "/") {
     // 2️⃣ Redirect ke /id/docs
-    return NextResponse.redirect(new URL("/en/docs", request.url));
+    return NextResponse.redirect(new URL("/id/docs", request.url));
   }
 
   // 3️⃣ Selain itu, biarin jalan normal

@@ -1,4 +1,4 @@
-import { RootProvider } from "fumadocs-ui/provider/next";
+import { RootProviderWrapper } from "@/components/RootProviderWrapper";
 import { Metadata } from "next";
 import "./global.css";
 import { Inter } from "next/font/google";
@@ -17,18 +17,11 @@ export const metadata: Metadata = {
 
 export default function Layout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={inter.className} suppressHydrationWarning>
+    <html lang="id" className={inter.className} suppressHydrationWarning>
       <body className="flex flex-col min-h-screen">
-        <RootProvider
-          search={{
-            options: {
-              // Memastikan pencarian mencari ke API yang baru kita buat
-              api: "/api/search",
-            },
-          }}
-        >
+        <RootProviderWrapper>
           {children}
-        </RootProvider>
+        </RootProviderWrapper>
       </body>
     </html>
   );

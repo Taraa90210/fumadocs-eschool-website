@@ -60,9 +60,9 @@ export default async function Page({
       }}
     >
       <DocsBody>
-        {/* Breadcrumb style Maroon/Brown - Full Trail with ChevronRight */}
+        {/* Breadcrumb style - Full Trail with ChevronRight */}
         {breadcrumbItems.length > 0 && (
-          <div className="mb-3 flex flex-row items-center gap-1.5 text-[12px] font-bold tracking-[0.1em] text-[#961b1b] dark:text-red-400/80 uppercase">
+          <div className="mb-3 flex flex-row items-center gap-1.5 text-[12px] font-bold tracking-[0.1em] text-neutral-600 dark:text-white uppercase">
             {breadcrumbItems.map((item, idx) => {
                const BreadcrumbIcon = item.icon ? icons[item.icon] : null;
 
@@ -70,13 +70,13 @@ export default async function Page({
                 <React.Fragment key={item.url}>
                   <Link 
                     href={item.url}
-                    className="flex items-center gap-1.5 text-[#961b1b] dark:text-red-400/90 no-underline opacity-80 hover:opacity-100 transition-opacity hover:underline decoration-[#961b1b]/30 dark:decoration-red-400/30 decoration-1 underline-offset-4"
+                    className="flex items-center gap-1.5 text-neutral-600 dark:text-white no-underline opacity-80 hover:opacity-100 transition-opacity hover:underline decoration-neutral-400/30 dark:decoration-white/30 decoration-1 underline-offset-4"
                   >
                     {BreadcrumbIcon && <BreadcrumbIcon size={18} strokeWidth={2.5} />}
                     <span>{item.title}</span>
                   </Link>
                   {idx < breadcrumbItems.length - 1 && (
-                    <ChevronRight size={18} strokeWidth={3} className="opacity-70 dark:opacity-40 mx-0.5" />
+                    <ChevronRight size={18} strokeWidth={3} className="opacity-70 dark:opacity-60 mx-0.5" />
                   )}
                 </React.Fragment>
               );
@@ -85,9 +85,9 @@ export default async function Page({
         )}
 
         <div className="mb-8 flex flex-row items-center gap-3">
-          {/* Ikon - Softer & Balanced Maroon/Brown */}
+          {/* Ikon - White in dark mode, matching standard documentation */}
           {LucideIcon && (
-            <div className="flex shrink-0 items-center justify-center text-[#A55757] dark:text-red-400/90">
+            <div className="flex shrink-0 items-center justify-center text-foreground dark:text-white">
               <LucideIcon size={32} strokeWidth={2.5} />
             </div>
           )}
